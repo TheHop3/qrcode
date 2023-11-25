@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">二维码生成</router-link> |
+      <router-link to="/reader">二维码解码</router-link>
     </nav>
     <router-view/>
   </div>
@@ -30,3 +30,5 @@ nav {
   }
 }
 </style>
+<script setup>
+</script>
